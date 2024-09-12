@@ -6,4 +6,5 @@
     <color name="light">#ffffff</color>
     <color name="top">#ffd2ac</color>
     <color name="main_color">#ff735c</color>
+    <color name="red">#FF0000</color>
 </resources>
