@@ -49,7 +49,7 @@ public class login extends AppCompatActivity {
             public void onClick(View view) {
 
                 if (email.getText().toString().equals(jainil) && password.getText().toString().equals(pass)){
-                    Intent intent = new Intent(login.this, homepage.class);
+                    Intent intent = new Intent(login.this,homepage.class);
                 startActivity(intent);
                 }else{
                     Toast tost = Toast.makeText(login.this,"User name or Email is wrong try again",Toast.LENGTH_SHORT);
