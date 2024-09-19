@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".homepage">
 
+
         <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="match_parent"
@@ -20,7 +21,8 @@
             android:layout_gravity="bottom"
             app:menu="@menu/bottom_navigation_menu"
             app:itemIconTint="@color/black"
-            app:itemTextColor="@color/black"
             android:background="@color/white"
+            android:backgroundTint="@color/main_color"
+            app:itemTextColor="@color/bottom_nav_text_selector"
             app:layout_constraintBottom_toBottomOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
