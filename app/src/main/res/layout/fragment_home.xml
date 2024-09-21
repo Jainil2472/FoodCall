@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/home_background"
     android:baselineAligned="false"
     android:gravity="center"
     android:orientation="vertical">
@@ -21,7 +20,7 @@
         android:id="@+id/shapeableImageView"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/logo_main"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.03"
@@ -114,6 +113,7 @@
                         android:layout_gravity="center"
                         android:text="pizza"
                         android:textSize="20dp"
+                        android:textColor="@color/black"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -136,6 +136,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="Burger"
+                        android:textColor="@color/black"
+
                         android:textSize="20dp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -158,6 +160,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="Sandwich"
+                        android:textColor="@color/black"
+
                         android:textSize="20dp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -179,6 +183,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:textColor="@color/black"
+
                         android:text="Wrap"
                         android:textSize="20dp"
                         android:textStyle="bold" />
@@ -202,6 +208,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="Cake"
+                        android:textColor="@color/black"
+
                         android:textSize="20dp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -267,6 +275,8 @@
                         android:layout_height="wrap_content"
                         android:text="Chole Bhature"
                         android:textSize="20dp"
+                        android:textColor="@color/black"
+
                         android:layout_gravity="center"
                         android:layout_marginStart="3dp"
                         android:textStyle="bold"
@@ -290,6 +300,8 @@
                         android:layout_height="wrap_content"
                         android:text="Panjabi"
                         android:textSize="20dp"
+                        android:textColor="@color/black"
+
                         android:layout_gravity="center"
                         android:textStyle="bold"
                         />
@@ -310,6 +322,8 @@
                         android:layout_height="wrap_content"
                         android:text="Sandwich"
                         android:textSize="20dp"
+                        android:textColor="@color/black"
+
                         android:layout_gravity="center"
                         android:textStyle="bold"
                         />
@@ -330,6 +344,8 @@
                         android:layout_height="wrap_content"
                         android:text="Dosha"
                         android:textSize="20dp"
+                        android:textColor="@color/black"
+
                         android:layout_gravity="center"
                         android:textStyle="bold"
                         />
@@ -350,6 +366,8 @@
                         android:layout_height="wrap_content"
                         android:text="Samosa"
                         android:textSize="20dp"
+                        android:textColor="@color/black"
+
                         android:layout_gravity="center"
                         android:textStyle="bold"
                         />
