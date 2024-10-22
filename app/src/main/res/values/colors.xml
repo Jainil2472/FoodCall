@@ -5,7 +5,10 @@
     <color name="Dark">#b0b0b0</color>
     <color name="light">#ffffff</color>
     <color name="top">#ffd2ac</color>
-    <color name="main_color">#ff735c</color>
+    <color name="main_color">#FF885B</color>
+    <color name="second_main">#FFE5CF</color>
+    <color name="third_main">#557C56</color>
+    <color name="fourth_main">#33372C</color>
     <color name="red">#FF0000</color>
     <color name="home_main">#ff8c2d</color>
 </resources>

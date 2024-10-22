@@ -25,6 +25,16 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        // Check if user is already logged in
+        boolean isLoggedIn = getSharedPreferences("user_prefs", MODE_PRIVATE)
+                .getBoolean("is_logged_in", false);
+
+        if (isLoggedIn) {
+            // If user is logged in, directly go to homepage
+            startActivity(new Intent(MainActivity.this, homepage.class));
+            finish(); // Finish login activity
+            return;
+        }
         Button login =findViewById(R.id.login);
         Button signup = findViewById(id.signup);
         login.setOnClickListener(new View.OnClickListener() {

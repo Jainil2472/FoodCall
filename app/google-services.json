@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "647843890863",
+    "project_id": "foodcall-61d8f",
+    "storage_bucket": "foodcall-61d8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647843890863:android:9d91b302bf66b954c5f65a",
+        "android_client_info": {
+          "package_name": "com.example.foodcall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN5Ja82Ndd_nPsFVjXDoFUFY2oSY5kXOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

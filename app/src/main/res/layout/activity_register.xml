@@ -118,22 +118,22 @@
             app:layout_constraintTop_toBottomOf="@+id/email"
             app:layout_constraintVertical_bias="0.1" />
 
-        <EditText
-            android:id="@+id/bday"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:background="@drawable/input_style"
-            android:ems="10"
-            android:hint="Birth Date"
-            android:inputType="date"
-            android:padding="10dp"
-            android:drawableStart="@drawable/birthdate"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/phoneno"
-            app:layout_constraintVertical_bias="0.126" />
+<!--        <EditText-->
+<!--            android:id="@+id/bday"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:background="@drawable/input_style"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Birth Date"-->
+<!--            android:inputType="date"-->
+<!--            android:padding="10dp"-->
+<!--            android:drawableStart="@drawable/birthdate"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.495"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/phoneno"-->
+<!--            app:layout_constraintVertical_bias="0.126" />-->
 
 
         <EditText
@@ -150,8 +150,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioGroup"
-            app:layout_constraintVertical_bias="0.221" />
+            app:layout_constraintTop_toBottomOf="@id/phoneno"
+            app:layout_constraintVertical_bias="0.135" />
 
         <EditText
             android:id="@+id/conformpassword"
@@ -168,7 +168,7 @@
             app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/password"
-            app:layout_constraintVertical_bias="0.392" />
+            app:layout_constraintVertical_bias="0.19" />
 
         <Button
             android:id="@+id/login"
@@ -184,39 +184,7 @@
             app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/conformpassword"
-            app:layout_constraintVertical_bias="0.972" />
-
-        <RadioGroup
-            android:id="@+id/radioGroup"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:orientation="horizontal"
-            android:background="@drawable/input_style"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bday"
-            app:layout_constraintVertical_bias="0.165">
-
-            <RadioButton
-                android:id="@+id/radioButton"
-                android:layout_width="140dp"
-                android:layout_height="match_parent"
-                android:text="Male"
-                android:textSize="18dp"
-                android:drawableStart="@drawable/male"
-
-                />
-
-            <RadioButton
-                android:id="@+id/radioButton2"
-                android:layout_width="161dp"
-                android:layout_height="50dp"
-                android:text="Female"
-                android:drawableStart="@drawable/female"
-                android:textSize="18dp"/>
-        </RadioGroup>
+            app:layout_constraintVertical_bias="0.39" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
